@@ -1,0 +1,201 @@
+.html, body {
+  background:url() top center no-repeat;
+  background-size:   cover;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  color:#fff;
+  font-size: 1.3rem;
+}
+
+#container {
+background: linear-gradient(180deg, #46b4aa, #439ee7);
+background-size: 400% 400%;
+
+-webkit-animation: container 5s ease infinite;
+-moz-animation: container 5s ease infinite;
+-o-animation: container 5s ease infinite;
+animation: container 5s ease infinite;
+}
+
+@-webkit-keyframes container {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@-moz-keyframes container {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@-o-keyframes container {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+@keyframes container {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
+
+
+.logo {
+  background:url(../img/logo.png) top left no-repeat;
+  width:210px;
+  height:193px;
+  display:block;
+}
+
+.iphone {
+  margin:50px 0 0;
+}
+
+nav {
+position: absolute;
+top: 8rem;
+right: 3rem;
+left: 3rem;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.1);
+  margin:50px 0;
+}
+
+h2{
+  font-family:'MuseoSansRounded';
+  text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.1);
+  font-size:2rem;
+  color:#FFF;
+}
+
+.header img {
+  margin-bottom:40px;
+}
+
+.header  {
+  padding-top:20%;
+}
+
+.social {
+  font-family:'Entypo Social';
+  font-size:1.9rem;
+}
+
+#footer {
+  height:80px;
+  font-size:1.1rem;
+}
+
+.download {
+  background-color: #fff;
+  color: #424a50;
+  border-radius: 2rem;
+  display: inline-block;
+  font-weight: 700;
+  /* line-height: 3.2rem; */
+  /* height: 3.5rem; */
+  text-decoration: none;
+  padding: 12px 38px;
+  -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+  -moz-transition: box-shadow 0.3s ease-in-out 0s;
+  -o-transition: box-shadow 0.3s ease-in-out 0s;
+  -ms-transition: box-shadow 0.3s ease-in-out 0s;
+  transition: box-shadow 0.3s ease-in-out 0s;
+}
+
+.download:hover {
+  box-shadow:0px 6px 9px rgba(0, 0, 0, 0.3);
+  -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+  -moz-transition: box-shadow 0.3s ease-in-out 0s;
+  -o-transition: box-shadow 0.3s ease-in-out 0s;
+  -ms-transition: box-shadow 0.3s ease-in-out 0s;
+  transition: box-shadow 0.3s ease-in-out 0s; 
+
+}
+
+.apple-logo {
+  width: 15px;
+  height: 18px;
+  background: url("../img/apple_logo.svg") top left no-repeat;
+  display: inline-block;
+  background-size: cover;
+  margin: 0px 15px 0 0px;
+  box-sizing: border-box;
+}
+
+.apple-logo:hover {
+
+}
+
+input[type="email"] {
+  border-radius: 30px;
+  padding:29px;
+  font-size: 1.3rem;
+  border:1px solid #FFF;
+  width:70%;
+}
+
+input[type="submit"] {
+  border-radius: 30px;
+  font-size: 1.3rem;
+  background: #46B4AA;
+  border:1px solid #66d1c7;
+}
+
+.made-in {
+  font-size:14px;
+  color:rgba(255,255,255, 0.5);
+}
+
+.made-in:hover {
+  font-size:14px;
+  color:rgba(255,255,255, 0.9)
+}
+
+/*---------- FONTS ----------*/
+
+@font-face {
+    font-family:'MuseoSansRounded';
+    src: url('font/museo/museosansrounded-300-webfont.eot');
+    src: url('font/museo/museosansrounded-300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/museo/museosansrounded-300-webfont.woff') format('woff'),
+         url('font/museo/museosansrounded-300-webfont.ttf') format('truetype'),
+         url('font/museo/museosansrounded-300-webfont.svg#museo_sans_rounded300') format('svg');
+    font-weight:300;
+    font-style:normal;
+}
+@font-face {
+    font-family:'MuseoSansRounded';
+    src: url('font/museo/museosansrounded-500-webfont.eot');
+    src: url('font/museo/museosansrounded-500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/museo/museosansrounded-500-webfont.woff') format('woff'),
+         url('font/museo/museosansrounded-500-webfont.ttf') format('truetype'),
+         url('font/museo/museosansrounded-500-webfont.svg#museo_sans_rounded500') format('svg');
+    font-weight:500;
+    font-style:normal;
+}
+@font-face {
+    font-family:'MuseoSansRounded';
+    src: url('font/museo/museosansrounded-700-webfont.eot');
+    src: url('font/museo/museosansrounded-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/museo/museosansrounded-700-webfont.woff') format('woff'),
+         url('font/museo/museosansrounded-700-webfont.ttf') format('truetype'),
+         url('font/museo/museosansrounded-700-webfont.svg#museo_sans_rounded700') format('svg');
+    font-weight:700;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Entypo Social';
+    src: url('font/entypo-social/entypo-social.eot');
+    src: url('font/entypo-social/entypo-social.eot?#iefix') format('embedded-opentype'),
+         url('font/entypo-social/entypo-social.woff') format('woff'),
+         url('font/entypo-social/entypo-social.ttf') format('truetype'),
+         url('font/entypo-social/entypo-social.svg') format('svg');
+    font-weight:normal;
+    font-style:normal;
+
+}
